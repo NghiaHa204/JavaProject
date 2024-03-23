@@ -2,7 +2,7 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package projectjava.VIEW;
+package GUI;
 
 import java.awt.BorderLayout;
 import java.awt.Color;
@@ -27,7 +27,7 @@ import javax.swing.border.Border;
  *
  * @author asus
  */
-public class LoginView extends JFrame {
+public class Login extends JFrame {
  Font TitleFont=new Font("Times New Roman",Font.BOLD,30);
  Font FieldFont=new Font("Times New Roman",Font.PLAIN,16);
  private JComponent[] components;
@@ -124,11 +124,11 @@ public class LoginView extends JFrame {
      
  }
 
- public LoginView()
+ public Login()
  {
      init();
  }
     public static void main(String[] args) {
-        new LoginView();
+        new Login();
     }
 }
